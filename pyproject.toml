@@ -13,7 +13,7 @@ license-files = ["LICENSE", "NOTICE"]
 dependencies = ["numpy>=1.26,<3"]
 
 [project.optional-dependencies]
-dev = ["pytest>=8", "ruff>=0.8"]
+dev = ["pytest>=8", "ruff>=0.8", "Pillow>=10"]
 neural = ["torch>=2.7,<3"]
 qwen = ["torch>=2.7,<3", "transformers>=4.57,<5", "peft>=0.17,<1", "accelerate>=1,<2", "Pillow>=10"]
 
